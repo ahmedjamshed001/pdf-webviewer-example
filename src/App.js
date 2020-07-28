@@ -4,7 +4,6 @@ import WebViewer from "@pdftron/webviewer"
 
 function App() {
   const viewer = React.useRef(null)
-  console.log(process.env.PUBLIC_URL)
 
   React.useEffect(() => {
     WebViewer(
